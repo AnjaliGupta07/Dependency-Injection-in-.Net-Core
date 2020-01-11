@@ -1,3 +1,5 @@
+(URL - https://www.tutorialsteacher.com/core/dependency-injection-in-aspnet-core)
+
 - ASP.NET Core is designed from scratch to support Dependency Injection. 
 - ASP.NET Core injects objects of dependency classes through constructor or method by using built-in IoC container.
 - ASP.NET Core framework contains simple out-of-the-box IoC container which does not have as many features as other third party IoC containers.
@@ -6,7 +8,20 @@
 - ASP.NET Core allows us to register dependencies with IoC container, in the ConfigureServices method of the Startup class.
 
 
+- Let's understand how the built-in IoC container works internally. (https://www.tutorialsteacher.com/core/internals-of-builtin-ioc-container-in-aspnet-core)
 
+The followings are important interfaces and classes for built-in IoC container:
+
+Interfaces:
+IServiceProvider
+IServiceCollection
+
+Classes:
+ServiceProvider
+ServiceCollection
+ServiceDescription
+ServiceCollectionServiceExtensions
+ServiceCollectionContainerBuilderExtensions
 
 
 
