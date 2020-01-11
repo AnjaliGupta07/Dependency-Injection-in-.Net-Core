@@ -1,1 +1,14 @@
+- ASP.NET Core is designed from scratch to support Dependency Injection. 
+- ASP.NET Core injects objects of dependency classes through constructor or method by using built-in IoC container.
+- ASP.NET Core framework contains simple out-of-the-box IoC container which does not have as many features as other third party IoC containers.
+- If you want more features such as auto-registration, scanning, interceptors, or decorators then you may replace built-in IoC container with a third party container.
+ 
+- ASP.NET Core allows us to register dependencies with IoC container, in the ConfigureServices method of the Startup class.
 
+
+
+
+
+
+Property Injection ??
+Built-in IoC container does not support property injection. You will have to use third party IoC container.
